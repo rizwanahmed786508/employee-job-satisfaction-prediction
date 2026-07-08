@@ -171,13 +171,26 @@ A confusion matrix was generated to visualize actual vs. predicted `Satisfaction
 ## 📁 Project Structure
 
 ```
-Employee-Job-Satisfaction-Prediction/
+employee-job-satisfaction-prediction/
 │
-├── satisfication_prediction.ipynb     # Main Jupyter Notebook (full ML workflow)
-├── NGC_Employee_Job_Satisfaction_Messy_Dataset_1000Rows.csv   # Raw dataset
-├── requirements.txt                   # Project dependencies
-├── README.md                          # Project documentation
-└── screenshots/                       # Visualizations (EDA, confusion matrix, etc.)
+├── dataset/
+│   └── NGC_Employee_Job_Satisfaction_Messy_Dataset_1000Rows.csv
+│
+├── notebook/
+│   └── Employee_Job_Satisfaction_Prediction.ipynb
+│
+├── presentation/
+│   └── index.html
+│
+├── images/
+│   ├── confusion_matrix.png
+│   ├── feature_importance.png
+│   └── feature_correlatiob_heatmap.png
+│
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore                    # Visualizations (EDA, confusion matrix, etc.)
 ```
 
 ---
@@ -228,7 +241,7 @@ jupyter notebook
 
 ## 🖼️ Screenshots
 
-> Add the corresponding images inside a `screenshots/` folder and update the paths below.
+
 
 | Section | Preview |
 |---|---|
