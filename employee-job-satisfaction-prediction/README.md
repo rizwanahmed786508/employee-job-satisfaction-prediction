@@ -341,7 +341,7 @@ This project demonstrates how predictive modeling can directly support HR functi
 ![Missing Values](images/missing_values_heatmap.png)
 
 ### 🔥 Correlation Heatmap
-![Correlation Heatmap](images/feature_correlation_heatmap.png)
+![Correlation Heatmap](images/feature_correlation_heatmap.png.png)
 
 ### 📉 Salary Distribution
 ![Salary Distribution](images/salary_distribution.png)
