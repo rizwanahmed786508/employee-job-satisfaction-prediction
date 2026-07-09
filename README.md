@@ -335,34 +335,34 @@ This project demonstrates how predictive modeling can directly support HR functi
 ## 📸 Project Screenshots
 
 ### 🧹 Data Distribution
-![Data Distribution](images/distribution.png)
+![Data Distribution](employee-job-satisfaction-prediction/images/distribution.png)
 
 ### 📈 Missing Values Heatmap
-![Missing Values](images/missing_values_heatmap.png)
+![Missing Values](employee-job-satisfaction-prediction/images/missing_values_heatmap.png)
 
 ### 🔥 Correlation Heatmap
-![Correlation Heatmap](images/feature_correlation_heatmap.png.png)
+![Correlation Heatmap](employee-job-satisfaction-prediction/images/feature_correlation_heatmap.png.png)
 
 ### 📉 Salary Distribution
-![Salary Distribution](images/salary_distribution.png)
+![Salary Distribution](employee-job-satisfaction-prediction/images/salary_distribution.png)
 
 ### 👥 Department Distribution
-![Department Distribution](images/department_distribution.png)
+![Department Distribution](employee-job-satisfaction-prediction/images/department_distribution.png)
 
 ### ⭐ Satisfaction Distribution
-![Satisfaction Distribution](images/satisfaction_distribution.png)
+![Satisfaction Distribution](employee-job-satisfaction-prediction/images/satisfaction_distribution.png)
 
 ### 🤖 Model Comparison
-![Model Comparison](images/model_comparison.png)
+![Model Comparison](employee-job-satisfaction-prediction/images/model_comparison.png)
 
 ### 🎯 Feature Importance
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](employee-job-satisfaction-prediction/images/feature_importance.png)
 
 ### 📊 Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](employee-job-satisfaction-prediction/images/confusion_matrix.png)
 
 ### ✅ Prediction Output
-![Prediction Output](images/prediction_output.png)
+![Prediction Output](employee-job-satisfaction-prediction/images/prediction_output.png)
 ---
 
 ## 👤 Author
