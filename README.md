@@ -252,11 +252,11 @@ The **Decision Tree** model (best performer) was evaluated using the following m
 - **Joblib** — Saving and loading the trained model, encoder, and scaler
 - **Jupyter Notebook** — Interactive development environment
 
----
+
 
 ## 📁 Project Structure
 
-```
+
 Employee-Job-Satisfaction-Prediction/
 │
 ├── dataset/
@@ -275,7 +275,7 @@ Employee-Job-Satisfaction-Prediction/
 │
 ├── requirements.txt
 └── README.md
-```
+
 
 ---
 
