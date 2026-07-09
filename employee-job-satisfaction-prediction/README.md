@@ -29,11 +29,11 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│                                                                    │
-│     EMPLOYEE JOB SATISFACTION PREDICTION USING MACHINE LEARNING   │
-│                                                                    │
-│     Data Cleaning • EDA • Feature Engineering • Model Comparison  │
-│                                                                    │
+│                                                                  │
+│     EMPLOYEE JOB SATISFACTION PREDICTION USING MACHINE LEARNING  │
+│                                                                  │
+│     Data Cleaning • EDA • Feature Engineering • Model Comparison │
+│                                                                  │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
@@ -331,27 +331,38 @@ This project demonstrates how predictive modeling can directly support HR functi
 - Saving and reusing trained models for future predictions using Joblib
 - Understanding the complete, end-to-end Machine Learning pipeline from raw data to prediction
 
----
 
-## 🖼️ Screenshots
+## 📸 Project Screenshots
 
-> Add the corresponding images inside an `images/` folder and update the paths below.
+### 🧹 Data Distribution
+![Data Distribution](images/distribution.png)
 
-| Section | Preview |
-|---|---|
-| Dataset Preview | `images/dataset_preview.png` |
-| Data Cleaning — Missing Values Heatmap | `images/missing_values_heatmap.png` |
-| EDA — Satisfaction Rating Distribution | `images/satisfaction_distribution.png` |
-| EDA — Department Distribution | `images/department_distribution.png` |
-| EDA — Correlation Heatmap | `images/correlation_heatmap.png` |
-| EDA — Salary Distribution | `images/salary_distribution.png` |
-| EDA — Age Distribution | `images/age_distribution.png` |
-| EDA — Salary vs Satisfaction Boxplot | `images/salary_vs_satisfaction.png` |
-| Model Comparison Chart | `images/model_comparison.png` |
-| Feature Importance | `images/feature_importance.png` |
-| Confusion Matrix | `images/confusion_matrix.png` |
-| Prediction Example | `images/prediction_example.png` |
+### 📈 Missing Values Heatmap
+![Missing Values](images/missing_values_heatmap.png)
 
+### 🔥 Correlation Heatmap
+![Correlation Heatmap](images/feature_correlation_heatmap.png)
+
+### 📉 Salary Distribution
+![Salary Distribution](images/salary_distribution.png)
+
+### 👥 Department Distribution
+![Department Distribution](images/department_distribution.png)
+
+### ⭐ Satisfaction Distribution
+![Satisfaction Distribution](images/satisfaction_distribution.png)
+
+### 🤖 Model Comparison
+![Model Comparison](images/model_comparison.png)
+
+### 🎯 Feature Importance
+![Feature Importance](images/feature_importance.png)
+
+### 📊 Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
+### ✅ Prediction Output
+![Prediction Output](images/prediction_output.png)
 ---
 
 ## 👤 Author
