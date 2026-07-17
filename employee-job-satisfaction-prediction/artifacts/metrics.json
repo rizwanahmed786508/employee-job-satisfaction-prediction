@@ -1,0 +1,308 @@
+{
+  "dataset_original_rows": 1030,
+  "dataset_original_cols": 9,
+  "missing_before": {
+    "Employee_ID": 0,
+    "Department": 39,
+    "Age": 0,
+    "Experience_Years": 0,
+    "Salary_PKR": 44,
+    "Work_Life_Balance": 0,
+    "Manager_Support": 41,
+    "Promotion_Last_2Y": 0,
+    "Satisfaction_Rating": 0
+  },
+  "duplicates_found": 26,
+  "dataset_cleaned_rows": 984,
+  "dataset_cleaned_cols": 9,
+  "rows_removed_duplicates": 26,
+  "satisfaction_distribution": {
+    "1": 212,
+    "2": 197,
+    "3": 235,
+    "4": 190,
+    "5": 150
+  },
+  "department_distribution": {
+    "finance": 181,
+    "hr": 144,
+    "it": 143,
+    "admin": 139,
+    "procurement": 139,
+    "engineering": 129,
+    "operations": 109
+  },
+  "department_classes": [
+    "admin",
+    "engineering",
+    "finance",
+    "hr",
+    "it",
+    "operations",
+    "procurement"
+  ],
+  "promotion_classes": [
+    "No",
+    "Yes"
+  ],
+  "feature_columns": [
+    "Department",
+    "Age",
+    "Experience_Years",
+    "Salary_PKR",
+    "Work_Life_Balance",
+    "Manager_Support",
+    "Promotion_Last_2Y"
+  ],
+  "correlation_matrix": {
+    "Department": {
+      "Department": 1.0,
+      "Age": 0.010462272434320338,
+      "Experience_Years": -0.036969804947439254,
+      "Salary_PKR": -0.011055166008450665,
+      "Work_Life_Balance": 0.01249461601452432,
+      "Manager_Support": -0.02508551578616864,
+      "Promotion_Last_2Y": -0.02283914365964444,
+      "Satisfaction_Rating": -0.005111766319737793
+    },
+    "Age": {
+      "Department": 0.010462272434320338,
+      "Age": 1.0,
+      "Experience_Years": 0.5367318251740923,
+      "Salary_PKR": 0.030565946305525418,
+      "Work_Life_Balance": 0.019275404516396293,
+      "Manager_Support": -0.017496997227702808,
+      "Promotion_Last_2Y": -0.008037923082404658,
+      "Satisfaction_Rating": 0.02854636922003017
+    },
+    "Experience_Years": {
+      "Department": -0.036969804947439254,
+      "Age": 0.5367318251740923,
+      "Experience_Years": 1.0,
+      "Salary_PKR": 0.06470369778332602,
+      "Work_Life_Balance": -0.01927033569006702,
+      "Manager_Support": -0.0008870315843416772,
+      "Promotion_Last_2Y": -0.006642152892774229,
+      "Satisfaction_Rating": 0.01739289252380894
+    },
+    "Salary_PKR": {
+      "Department": -0.011055166008450665,
+      "Age": 0.030565946305525418,
+      "Experience_Years": 0.06470369778332602,
+      "Salary_PKR": 1.0,
+      "Work_Life_Balance": -0.06680622574041055,
+      "Manager_Support": 0.016042736085631344,
+      "Promotion_Last_2Y": -0.03673632248633366,
+      "Satisfaction_Rating": 0.37335460307949536
+    },
+    "Work_Life_Balance": {
+      "Department": 0.01249461601452432,
+      "Age": 0.019275404516396293,
+      "Experience_Years": -0.01927033569006702,
+      "Salary_PKR": -0.06680622574041055,
+      "Work_Life_Balance": 1.0,
+      "Manager_Support": 0.049178434504681116,
+      "Promotion_Last_2Y": 0.05736398752310379,
+      "Satisfaction_Rating": 0.5331609909261464
+    },
+    "Manager_Support": {
+      "Department": -0.02508551578616864,
+      "Age": -0.017496997227702808,
+      "Experience_Years": -0.0008870315843416772,
+      "Salary_PKR": 0.016042736085631344,
+      "Work_Life_Balance": 0.049178434504681116,
+      "Manager_Support": 1.0,
+      "Promotion_Last_2Y": 0.008688902235720495,
+      "Satisfaction_Rating": 0.570233322701748
+    },
+    "Promotion_Last_2Y": {
+      "Department": -0.02283914365964444,
+      "Age": -0.008037923082404658,
+      "Experience_Years": -0.006642152892774229,
+      "Salary_PKR": -0.03673632248633366,
+      "Work_Life_Balance": 0.05736398752310379,
+      "Manager_Support": 0.008688902235720495,
+      "Promotion_Last_2Y": 1.0,
+      "Satisfaction_Rating": 0.32826350149878897
+    },
+    "Satisfaction_Rating": {
+      "Department": -0.005111766319737793,
+      "Age": 0.02854636922003017,
+      "Experience_Years": 0.01739289252380894,
+      "Salary_PKR": 0.37335460307949536,
+      "Work_Life_Balance": 0.5331609909261464,
+      "Manager_Support": 0.570233322701748,
+      "Promotion_Last_2Y": 0.32826350149878897,
+      "Satisfaction_Rating": 1.0
+    }
+  },
+  "model_comparison": [
+    {
+      "model": "Decision Tree",
+      "accuracy": 87.31,
+      "precision": 87.61,
+      "recall": 87.31,
+      "f1_score": 87.36
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 85.79,
+      "precision": 86.25,
+      "recall": 85.79,
+      "f1_score": 85.95
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 65.48,
+      "precision": 68.78,
+      "recall": 65.48,
+      "f1_score": 66.11
+    },
+    {
+      "model": "SVM",
+      "accuracy": 64.97,
+      "precision": 68.02,
+      "recall": 64.97,
+      "f1_score": 65.6
+    },
+    {
+      "model": "KNN",
+      "accuracy": 59.39,
+      "precision": 60.63,
+      "recall": 59.39,
+      "f1_score": 59.3
+    }
+  ],
+  "best_model_name": "Decision Tree",
+  "best_model_accuracy": 87.31,
+  "classification_report": {
+    "1": {
+      "precision": 0.9285714285714286,
+      "recall": 0.8478260869565217,
+      "f1-score": 0.8863636363636364,
+      "support": 46.0
+    },
+    "2": {
+      "precision": 0.8,
+      "recall": 0.8695652173913043,
+      "f1-score": 0.8333333333333334,
+      "support": 46.0
+    },
+    "3": {
+      "precision": 0.875,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8536585365853658,
+      "support": 42.0
+    },
+    "4": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8823529411764706,
+      "f1-score": 0.8571428571428571,
+      "support": 34.0
+    },
+    "5": {
+      "precision": 0.9655172413793104,
+      "recall": 0.9655172413793104,
+      "f1-score": 0.9655172413793104,
+      "support": 29.0
+    },
+    "accuracy": 0.8730964467005076,
+    "macro avg": {
+      "precision": 0.8804844006568144,
+      "recall": 0.8797189640473881,
+      "f1-score": 0.8792031209609006,
+      "support": 197.0
+    },
+    "weighted avg": {
+      "precision": 0.8761300459270003,
+      "recall": 0.8730964467005076,
+      "f1-score": 0.8736171385050919,
+      "support": 197.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      39,
+      5,
+      0,
+      2,
+      0
+    ],
+    [
+      2,
+      40,
+      3,
+      1,
+      0
+    ],
+    [
+      0,
+      5,
+      35,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      2,
+      30,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      28
+    ]
+  ],
+  "confusion_matrix_labels": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "feature_importance": [
+    {
+      "feature": "Salary_PKR",
+      "importance": 0.308668
+    },
+    {
+      "feature": "Work_Life_Balance",
+      "importance": 0.246282
+    },
+    {
+      "feature": "Manager_Support",
+      "importance": 0.22549
+    },
+    {
+      "feature": "Promotion_Last_2Y",
+      "importance": 0.141687
+    },
+    {
+      "feature": "Age",
+      "importance": 0.035347
+    },
+    {
+      "feature": "Experience_Years",
+      "importance": 0.030951
+    },
+    {
+      "feature": "Department",
+      "importance": 0.011575
+    }
+  ],
+  "train_size": 787,
+  "test_size": 197,
+  "n_features": 7,
+  "target_variable": "Satisfaction_Rating",
+  "algorithms_tested": [
+    "Logistic Regression",
+    "Decision Tree",
+    "Random Forest",
+    "KNN",
+    "SVM"
+  ]
+}
