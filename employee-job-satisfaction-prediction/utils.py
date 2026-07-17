@@ -15,7 +15,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_DIR = os.path.join(BASE_DIR, "model")
 ARTIFACT_DIR = os.path.join(BASE_DIR, "artifacts")
 DATA_PATH = os.path.join(
-    BASE_DIR, "dataset", "NGC_Employee_Job_Satisfaction_Messy_Dataset_1000Rows.csv"
+    BASE_DIR, "Dataset", "NGC_Employee_Job_Satisfaction_Messy_Dataset_1000Rows.csv"
 )
 
 # ---------------------------------------------------------------------------
